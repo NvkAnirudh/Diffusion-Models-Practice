@@ -4,7 +4,8 @@
 1) Trained a diffusion model using Hugging Face's diffusers library to generate visually impressive butterfly images.
 2) Used a noise scheduler to add noise to 1000 high-quality butterfly images and trained a UNet architecture for denoising.
 3) Employed the backward denoising process, optimizing the model parameters using AdamW optimizer and minimizing the mean squared error (MSE) loss function.
-Tags: Python, Hugging Face, PyTorch, Deep Learning
+
+*Tags*: Python, Hugging Face, PyTorch, Deep Learning
 
 ### Summary
 DDPM (Denoising Diffusion Probabilistic Models) is a type of generative model that can learn to generate realistic images by estimating the probability distribution of the data. DDPMs use a diffusion process to transform a random noise signal into an image that is close to the target distribution. In the diffusion process, noise is gradually added to the signal, and the signal is then denoised using a neural network. By iteratively adding noise and denoising, the model can learn to generate high-quality images that match the target distribution.
